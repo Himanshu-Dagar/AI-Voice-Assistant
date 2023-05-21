@@ -11,4 +11,3 @@ I have created a basic AI Voice assistance-**Steve** using python commands. When
 8. can open visual studiocode application installed in your system. You can add access to more applications. Note: provide valid path. 
 9. can open notepad and calulator. you can add more according to our convenience.
 10. Programmer can exit the pprogram with a farewell message when the user asks to 'quit'.
-11. 
