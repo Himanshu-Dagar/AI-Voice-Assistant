@@ -1,6 +1,6 @@
 # AI-Voice-Assistant
 I have created a basic AI Voice assistance-**Steve** using python commands. When you run the program. It will take the your said query to be processed, takeCommand() converts the input from microphone into string to match it with differents queries enlisted in main function.
-It it capable to -
+**Steve** capable to -
 1. search for a query in 'wikipedia'
 2. can 'open youtube' in your browser or you can 'search with youtube' with your query said.
 3. can open 'google' in your browser or you can 'search with google' with your query said.
