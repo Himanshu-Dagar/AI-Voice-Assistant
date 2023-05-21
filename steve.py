@@ -33,7 +33,7 @@ def takeCommand():
     r=sr.Recognizer()
     with sr.Microphone() as source:
         print("Listening...")
-        r.pause_threshold=1 #1 second of non-speaking audio before a phase is considered complete 
+        r.pause_threshold=1  #1 second of non-speaking audio before a phase is considered complete 
         audio=r.listen(source)
     try:
         print("Recognizing...")
@@ -49,8 +49,8 @@ def sendEmail(to,content):
     server=smtplib.SMTP('smtp.gmail.com',587)
     server.ehlo()
     server.starttls()
-    server.login('dagar077himanshu@gmail.com',"dyaoyhaixbzdvgcx")
-    server.sendmail('dagar077himanshu@gmail.com',to,content)
+    server.login('add_your_email_addresss',"your-password")
+    server.sendmail('add_your_email_addresss',to,content)
     server.close()
 
 def search_on_google(query):
@@ -160,7 +160,7 @@ if __name__=="__main__":
             try:
                 speak("What should i say?")
                 content=takeCommand()
-                to="himanshudagar1108@gmail.com"
+                to="email_address_you_want_to_send_mail"
                 sendEmail(to,content)
                 speak("Email has been sent!")
             except Exception as e:
