@@ -13,11 +13,11 @@ pyperclip==1.8.2
 pypiwin32==223
 PyRect==0.2.0
 PyScreeze==0.1.28
-pyttsx3==2.90
+pyttsx3==306
 pytweening==1.0.7
 pywin32==23.2
 requests==2.30.0
 soupsieve==2.4.1
-SpeechRecognition==3.9.0
+SpeechRecognition==3.10.0
 urllib3==2.0.2
 wikipedia==1.4.0
