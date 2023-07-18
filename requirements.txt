@@ -15,6 +15,7 @@ PyRect==0.2.0
 PyScreeze==0.1.28
 pyttsx3==2.90
 pytweening==1.0.7
+pywin32==306
 requests==2.30.0
 soupsieve==2.4.1
 SpeechRecognition==3.9.0
