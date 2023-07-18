@@ -1,3 +1,4 @@
+pip install pywin32
 import pyttsx3 
 import datetime
 import wikipedia
